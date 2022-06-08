@@ -24,3 +24,5 @@ mkdir -p $SINGULARITY_TMPDIR
 # Note - your $HOME directory, /tmp and $PWD are automatically mounted and available inside the container:
 singularity exec $CONTAINER python3 HelloWorld.py 
 
+# remove the tmp folder to avoid clutter:
+rm -rf $SINGULARITY_TMPDIR
