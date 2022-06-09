@@ -2,8 +2,10 @@
 This repository contains material for "Introduction to Containers on Discovery" training modules.
 
 ## What's in each training sub-folder?
-* Training PowerPoint slides
-* Exercise folders
+* Exercise 1 - Python container example Slurm script and a Python script
+* Exercise 2 - TensorFlow container example Slurm script and a Python script 
+* Exercise 3 - PyTorch container example Slurm script and a Python script
+* Exercise 4 - GROMACS container example Slurm script and a sample tpr file
 
 ## Steps to download and use the repo on Discovery
 1. Login to a Discovery shell or use the [Discovery OnDemand interface](https://rc-docs.northeastern.edu/en/latest/first_steps/connect_ood.html).
